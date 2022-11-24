@@ -5,9 +5,9 @@ footer {
     height:auto;
     display: flex;
     flex-direction: column;
-    background-color: #545e56ff;
-    font-weight: 800;
-    font-size: 18px;
+    background-color: $secondary-Color;
+    font-weight: $font-Weight;
+    font-size: $main-Fontsize;
 }
 .containerFooter{
     display: flex;
@@ -65,7 +65,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-weight: 800;
-    font-size: 17px;
+    font-size: $main-Fontsize;
     p{
         margin-bottom: 0;
         a{
