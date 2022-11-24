@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap);
+@import url(https://fonts.gstatic.com);
+@import url(https://fonts.googleapis.com);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  color: black; }
+
+/* ----------------------------HEADER---------------------------------- */
+.bg-light {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.container-fluid {
+  background-color: white;
+  padding-left: auto;
+  font-weight: 800;
+  font-size: 20px;
+  color: black; }
+
+.navbar-brand .logoNav--Custom {
+  width: 170px;
+  height: 90px;
+  padding: 0; }
+
+.navbar-nav li {
+  padding: 0 20px; }
+
+.me-auto {
+  margin: 0;
+  margin-left: 100px; }
+
+.shopingCart--Button {
+  background-image: url(../assets/images/carritoCompra.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 60px;
+  margin-right: 130px;
+  background-size: 50px 50px;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  background-color: white;
+  transition: all 0.8s ease;
+  cursor: pointer; }
+
+/* --------------------MAIN-INDEX----------------------------------- */
+.index__Logos--Custom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  justify-content: space-evenly; }
+  .index__Logos--Custom div h3 {
+    font-size: 20px;
+    font-weight: 800; }
+
+.index__Logos--Custom > div > h3 {
+  font-size: 20px;
+  font-weight: 800; }
+
+.logosMain--Custom {
+  width: 50px;
+  margin-bottom: 5px; }
+
+/* --------------------------------------FOOTER-------------------------------------------------- */
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #545e56ff;
+  font-weight: 800;
+  font-size: 18px; }
+
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.containerFooter--Ul {
+  display: flex;
+  align-items: center; }
+  .containerFooter--Ul ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 0;
+    padding-left: 0; }
+    .containerFooter--Ul ul li {
+      cursor: pointer; }
+
+.containerFooter--Ul ul a {
+  cursor: pointer; }
+
+.paymentMethods {
+  display: flex;
+  flex-direction: row; }
+  .paymentMethods p {
+    padding-left: 10px;
+    align-self: center;
+    margin-bottom: 0; }
+
+.paymentMethods--Image {
+  width: 300px;
+  height: 100px; }
+
+.containerFooter--ContactProgrammer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 17px; }
+  .containerFooter--ContactProgrammer p {
+    margin-bottom: 0; }
+    .containerFooter--ContactProgrammer p a {
+      text-decoration: none;
+      color: white; }
+
+/* --------------------------------------------------------------INDEX-GRIDS -------------------------------------------------*/
+.padre__Grids {
+  display: inline-grid;
+  width: 100%;
+  height: 840px;
+  padding-top: 10px;
+  grid-template-columns: repeat(3, 280px);
+  grid-template-rows: repeat(2, 100px);
+  grid-column-gap: 200px;
+  grid-row-gap: 300px;
+  color: black;
+  justify-content: center; }
+
+.grid--Hijos {
+  text-align: center;
+  vertical-align: bottom;
+  color: black;
+  font-size: 17px;
+  font-weight: bold; }
+  .grid--Hijos h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0; }
+  .grid--Hijos button {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0px 2.1px 3px;
+    padding: 5px 8px;
+    font-weight: 800;
+    font-size: 17px;
+    cursor: pointer; }
+
+.grid--Image {
+  width: 100%;
+  height: 280px;
+  cursor: pointer;
+  transition: 2s ease;
+  margin-bottom: 10px; }
+
+.price__Underline {
+  text-decoration: underline;
+  margin-bottom: 2px; }
