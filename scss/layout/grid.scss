@@ -8,14 +8,14 @@
     grid-template-rows: repeat(2, 100px);
     grid-column-gap: 200px;
     grid-row-gap: 350px;
-    color: black;
+    color: $font_Color;
     justify-content: center;
 }
 
 .grid--Hijos {
     text-align: center;
     vertical-align: bottom;
-    color: black;
+    color: $font_Color;
     font-size: $main-Fontsize;
     font-weight: bold;
     h3{
@@ -31,8 +31,12 @@
     cursor: pointer;
     transition: 2s ease;
     margin-bottom: 10px;
-
+    &:hover{
+        transform: scale(1.10);
+        transition: 2s ease;
+    }
 }
+
 
 .price__Underline {
     text-decoration: underline;

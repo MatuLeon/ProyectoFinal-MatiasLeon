@@ -1,0 +1,88 @@
+/*---------------------SUBLIMADOS-------------------*/
+
+.backgroundImage {
+    background:url(../assets/images/fondo-Estampado.jpg) rgba(255, 255, 255, 0.452);
+    background-blend-mode: color;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    height: auto;
+    padding-bottom: 100px;
+}
+.stampTitle {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    h2{
+        font-weight: bold;
+    }
+}
+
+.functionFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.creation--Parragraph {
+    text-align: center;
+    font-size: $main-Fontsize;
+    font-weight: $font-Weight;
+    font-style: bolder;
+}
+
+.creation--Steps {
+    width: 50%;
+    padding:1px 0 5px 20px;
+    font-size: 17px;
+    ol{
+        font-weight: $font-Weight;
+    }
+
+}
+
+
+.container__Form--Stamp {
+    width: 250px;
+    padding: 10px 0 0 20px;
+}
+
+
+.form--Stamp{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    font-size: $main-Fontsize;
+    font-weight: $font-Weight;
+    background-color: rgba(0, 0, 0, 0.185);
+    background-blend-mode: color;
+    padding: 8px 8px 0;
+    select{
+        border-radius: 8px;
+        color:$font_Color;
+        font-size: $main-Fontsize;
+        font-weight: $font-Weight;
+        width: 100%;
+        option{
+            font-weight: $font-Weight
+        }
+    }
+} 
+
+.button--CreationShirt {
+    font-weight: $font-Weight;
+    font-size: $main-Fontsize;
+    border: none;
+    cursor: pointer;
+    width: 58.9%;
+    padding: 2px 0 0 2px;
+}
+
+.containerTableShirts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    img{
+        width: 300px;
+        height: 270px;
+    }
+}
