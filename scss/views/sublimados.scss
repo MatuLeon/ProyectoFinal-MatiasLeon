@@ -1,4 +1,4 @@
-/*---------------------SUBLIMADOS-------------------*/
+/* ------------------------------------------------Sublimados-------------------------------------------------- */
 
 .backgroundImage {
     background:url(../assets/images/fondo-Estampado.jpg) rgba(255, 255, 255, 0.452);
@@ -33,13 +33,12 @@
 .creation--Steps {
     width: 50%;
     padding:1px 0 5px 20px;
-    font-size: 17px;
+    font-size: $main-Fontsize;
     ol{
         font-weight: $font-Weight;
     }
 
 }
-
 
 .container__Form--Stamp {
     width: 250px;
@@ -63,19 +62,11 @@
         font-weight: $font-Weight;
         width: 100%;
         option{
-            font-weight: $font-Weight
+            font-weight: $font-Weight;
         }
     }
 } 
 
-.button--CreationShirt {
-    font-weight: $font-Weight;
-    font-size: $main-Fontsize;
-    border: none;
-    cursor: pointer;
-    width: 58.9%;
-    padding: 2px 0 0 2px;
-}
 
 .containerTableShirts {
     display: flex;
@@ -86,3 +77,4 @@
         height: 270px;
     }
 }
+

@@ -1,0 +1,308 @@
+/*------------- MEDIA QUERIES MOBILE (767px)---------- */
+
+@media screen and (max-width:767px){
+    /*------------------- Header -------------------------------*/
+
+        .me-auto{
+            margin-left: 0;
+        }
+
+        .navbar-toggler:focus{
+            box-shadow: none;
+        }
+
+    
+        .navbar-toggler{
+            border: none;
+            transition: none;
+        }
+
+    /* --------------MAIN LOGO ---------------------*/
+
+        .index__Logos--Custom{
+            margin-top: 130px;
+        }
+        
+        .logosMain--Custom{
+            display: inline;
+        }
+
+        .responsive--FlexLogo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .deleteToResponsive {
+            display: none;
+        }
+    
+        .padre__Grids {
+            padding-top: 0.2rem;
+            height: auto;
+            grid-template-columns:repeat(1, 0.8fr) ;
+            grid-template-rows: repeat(6, 0.8fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 3rem;
+        }
+    
+        /* ---------------REMERAS-------------------------- */
+    
+        .option__Shirts{
+            padding-left: 10px;
+            text-align: center;
+        }
+
+        button {
+            margin-bottom: 4px;
+        }
+    
+    
+        /* --------SUBLIMADOS------------------ */
+        .backgroundImage{
+            height: auto;
+        }
+
+
+        .functionFlex {
+            flex-direction:column ;
+        }
+    
+        .creation--Steps{
+            height: auto;
+        }
+    
+        .containerTableShirts{
+            flex-wrap: wrap;
+            img{
+                width: 186px;
+                height: auto;
+            }
+        }
+    
+        /* --------------Como comprar-------------------- */
+    
+        .howToBuy--Instruction{
+            padding-left: 5px;
+        }
+        
+        .whatsappLink{
+            padding-right: 20px;
+            width:auto;
+            height: auto;
+        }
+    
+        /* ---------------CONTACTO------------------- */
+
+
+        .container__Contacts{
+            flex-direction: column;
+        }
+    
+        .contacts--Information{
+            margin-top: 10px;
+        }
+
+
+        .contacts--Information{
+            div{
+                p{
+                    padding: 0px 0px;
+                    margin-bottom: 4px;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+
+        .iframe{
+            display: none;
+        }
+
+        .contacts--Form{
+            padding-left: 0;
+        }
+    
+        .form--SeparatorInput{
+            input{
+                width: 95%;
+            }
+        }
+
+        textarea{
+            width: 95%;
+        }
+    
+        .exclusive--FormButton{
+            padding-right: 17px;
+        }
+        /* --------------FOOTER---------------- */
+
+
+        footer {
+            max-width: 100vw;
+            height: auto;
+            margin-top: 1rem;
+            font-weight: $font-Weight;
+            font-size: $main-Fontsize;
+        }
+
+
+        .containerFooter{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .containerFooter--Ul{
+            padding: 10px 10px 0px 10px;
+            width: auto;
+            height: 4rem;
+            ul{
+                li{
+                    padding: 0px 20px 0 0;
+                }
+            }
+        }
+    
+    
+        .iconsSocialMedia--Footer{
+            width: 26px;
+            height: 26px;
+        }
+
+        .paymentMethods {
+            flex-direction: row;
+            p{
+                padding-right: 10px;
+                align-self: center;
+                padding-left: 10px;
+            }
+        }
+        
+
+        .paymentMethods--Image {
+            width: 8rem;
+            height: auto;
+            padding: 10px 0px 10px 10px;
+        }
+        
+        .containerFooter--ContactProgrammer {
+            font-size: $main-Fontsize
+        }
+    
+    }
+    
+    /* MEDIA QUERIE TABLETS (entre 768px y 1200px) */
+    
+    @media (min-width:768px) and (max-width:1200px){
+        /*-------------------HEADER----------------  */
+
+
+        .me-auto{
+            margin-left: 0;
+        }
+    
+        .index__Logos--Custom{
+            div{
+                padding: 0px 10px;
+                h3{
+                    font-size: $main-Fontsize
+                }
+            }
+        }
+
+        
+    
+    
+        .padre__Grids {
+            display: inline-grid;
+            grid-template-columns:repeat(2, 250px) ;
+            grid-template-rows: repeat(4, 50px);
+            grid-column-gap: 130px;
+            grid-row-gap: 350px;
+            padding-top: 10px;
+        }
+        /* -------------------------REMERAS--------------------------------- */
+
+
+        .grid--Image{
+            height: 270px;
+        }
+    
+        /* -----------------------Sublimados------------- */
+
+
+        .containerTableShirts{
+            flex-wrap: wrap;
+        }
+
+        /*----------------FOOTER-------------------  */
+
+
+        footer {
+            max-width: 100vw;
+            margin-top: 50px;
+            font-size: $main-Fontsize;
+        }
+
+        .containerFooter--Ul{
+            ul{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                text-decoration: none;
+                a{
+                    cursor: pointer;
+                }
+            }
+        }
+    
+
+        .flexRow--Responsive--Tablets{
+            display: flex;
+            flex-direction: row;
+            padding-top: 10px;
+        }
+    
+        
+        .paymentMethods {
+            display: flex;
+            flex-direction: column;
+            p{
+                padding-right: 0px;
+                padding-bottom: 7px;
+                align-self: center;
+            }
+        }
+        
+        .paymentMethods--Image {
+            width: 200px;
+            height: 80px;
+        }
+    
+        .containerFooter--ContactProgrammer {
+            font-size: $main-Fontsize;
+        }
+    
+    
+        .nav-link:hover::after , .containerFooter--ContactProgrammer>p>a:hover::after{
+            width: 0;
+        }
+    }
+    
+    
+    @media (min-width:1201px){
+
+
+        /* ---------------REMERAS--------- */
+        .padre__Grids{
+            grid-row-gap: 320px;
+        }
+
+    
+        /* --------FOOTER----- */
+        footer {
+            margin-top: 104px;
+        }
+    }

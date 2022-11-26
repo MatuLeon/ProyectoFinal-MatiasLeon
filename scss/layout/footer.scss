@@ -1,13 +1,13 @@
-
 /* --------------------------------------FOOTER-------------------------------------------------- */
+
 footer {
     width: 100%;
     height:auto;
     display: flex;
     flex-direction: column;
-    background-color: $secondary-Color;
+    background-color: $footer_color;
     font-weight: $font-Weight;
-    font-size: $main-Fontsize;
+    font-size: $main-Fontsize
 }
 .containerFooter{
     display: flex;
@@ -18,35 +18,27 @@ footer {
 .containerFooter--Ul{
     display: flex;
     align-items: center;
-        ul{
-            display: flex;
-            list-style: none;
-            text-decoration: none;
-            margin-bottom: 0;
-            padding-left: 0;
-            li{
-                cursor: pointer;
-                padding: 0 4px;
-            }
-        }
-}
-
-
-
-
-.containerFooter--Ul{
     ul{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        margin-bottom: 0;
+        padding-left: 0;
+        li{
+            padding: 0 5px 0 10px;
+        }
         a{
             cursor: pointer;
         }
     }
 }
 
+
 .paymentMethods {
     display: flex;
     flex-direction: row;
     p{
-        padding-left: 10px;
+        padding-right: 10px;
         align-self: center;
         margin-bottom: 0;
     }
@@ -61,17 +53,42 @@ footer {
 
 .containerFooter--ContactProgrammer {
     text-align: center;
+}
+
+
+.containerFooter--ContactProgrammer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: 800;
+    font-weight: $font-Weight;
     font-size: $main-Fontsize;
     p{
         margin-bottom: 0;
         a{
             text-decoration: none;
-            color: white;
+            color: $primary-Color;
+        }
+    }
+}
+
+.containerFooter--ContactProgrammer{
+    p{
+        a::after{
+            content:"";
+            height: 2px;
+            width: 0;
+            background-color: black;
+            display: block;
+            transition: all 300ms
+        }
+    }
+}
+
+.containerFooter--ContactProgrammer{
+    p{
+        a:hover::after{
+            width: 100%;
         }
     }
 }

@@ -1,19 +1,6 @@
-//Buttons bootstrap
-.grid--Hijos {
-    button{
-    border: none;
-    background-color: $primary-Color;
-    color:$buttonGrid;
-    border-radius: 8px;
-    box-shadow: 0px 2.1px 3px;
-    padding: 5px 8px ;
-    font-weight: $font-Weight;
-    font-size:$main-Fontsize;
-    cursor:pointer;
-        }
-}
+//Shopping cart button
 
-//Button shopping cart
+/*----Shopping cart button wich belongs to headear----*/
 .shopingCart--Button{
     background-image:url(../assets/images/carritoCompra.png);
     background-repeat:no-repeat;
@@ -24,17 +11,21 @@
     background-position:center;
     background-size: contain;
     border: none;
-    background-color: $primary-Color;
+    background-color: white;
     transition: all 0.8s ease;
     cursor: pointer;
     &:hover{
         transition: all 0.6s ease;
-        filter:brightness(100%);
+        filter: brightness(100%);
         background-color: $shopping_CartTransition;
     }
 }
 
-//Button option shirts 
+
+//Option shirts button
+
+/*--------------------Remeras------------------*/
+
 .option__Shirts {
     padding: 15px 0 15px 105px;
     font-size: $main-Fontsize;
@@ -53,6 +44,18 @@
         color: $font_Color;
         font-weight: $font-Weight;
     }
+}
+
+
+//Creation shirt button
+
+.button--CreationShirt {
+    font-weight: $font-Weight;
+    font-size: $main-Fontsize;
+    border: none;
+    cursor: pointer;
+    width: 58.9%;
+    padding: 2px 0 0 2px;
 }
 
 
