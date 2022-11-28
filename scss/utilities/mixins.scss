@@ -1,0 +1,13 @@
+//Button form contact us
+@mixin button-form-contact-us {
+    display: flex;
+    justify-content: flex-end;
+    input{
+        background-color: $form-Button-Contact;
+        color:$primary-Color;
+        width: 100px;
+        height: 40px;
+        font-weight: $font-Weight;
+        font-size: $main-Fontsize;
+    }
+}
