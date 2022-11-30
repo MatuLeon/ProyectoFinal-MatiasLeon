@@ -59,6 +59,9 @@
   width: 50px;
   margin-bottom: 5px; }
 
+#carouselExampleSlidesOnly {
+  display: none; }
+
 /* --------------------------------------------------------------INDEX-GRIDS -------------------------------------------------*/
 .padre__Grids {
   display: inline-grid;
@@ -374,14 +377,22 @@ textarea {
     transition: none; }
   /* --------------MAIN LOGO ---------------------*/
   .index__Logos--Custom {
-    margin-top: 130px; }
-  .logosMain--Custom {
-    display: inline; }
-  .responsive--FlexLogo {
-    display: flex;
-    flex-direction: column; }
-  .deleteToResponsive {
     display: none; }
+  #carouselExampleSlidesOnly {
+    margin-top: 120px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center; }
+    #carouselExampleSlidesOnly img {
+      width: 60px;
+      height: 60px; }
+    #carouselExampleSlidesOnly h3 {
+      font-size: 18px;
+      font-weight: 800;
+      padding: 5px 5px; }
+    #carouselExampleSlidesOnly .carousel-inner .carousel-item {
+      height: 140.78px; }
   .padre__Grids {
     padding-top: 0.2rem;
     height: auto;
