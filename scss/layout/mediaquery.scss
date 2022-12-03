@@ -2,7 +2,9 @@
 
 @media screen and (max-width:767px){
     /*------------------- Header -------------------------------*/
-
+        .bg-light{
+            z-index: 10000;
+        }
         .me-auto{
             margin-left: 0;
         }
@@ -163,6 +165,7 @@
         .containerFooter{
             display: flex;
             flex-direction: column;
+            margin-top: 1rem;
         }
         
         .containerFooter--Ul{
@@ -216,7 +219,8 @@
     
         .index__Logos--Custom{
             div{
-                padding: 0px 10px;
+                padding: 0px 0px;
+                text-align: center;
                 h3{
                     font-size: $main-Fontsize
                 }
@@ -240,7 +244,7 @@
         .grid--Image{
             height: 270px;
         }
-    
+        
         /* -----------------------Sublimados------------- */
 
 
@@ -253,7 +257,7 @@
 
         footer {
             max-width: 100vw;
-            margin-top: 50px;
+            margin-top: 350px;
             font-size: $main-Fontsize;
         }
 
@@ -309,11 +313,149 @@
         /* ---------------REMERAS--------- */
         .padre__Grids{
             grid-row-gap: 320px;
+            padding: 100px;
         }
 
     
         /* --------FOOTER----- */
         footer {
-            margin-top: 104px;
+            margin-top: 144px;
+        }
+    }
+
+    @media (min-width:1800px) {
+        /*------NAV----BAR--------*/
+
+        .navbar-collapse{
+            padding-left: 2vw;
+            font-size: 32px;
+        }
+
+        .navbar-brand{
+            .logoNav--Custom{
+                margin-left: 14vw;
+                width: 250px;
+                height: 150px;
+            }
+        }
+
+        .shopingCart--Button {
+            margin-right: 20.7vw;
+            height: 80px;
+            width: 100px;
+        }
+
+        /*---------------MAIN-INDEX---------*/
+
+        .index__Logos--Custom{
+            margin-top: 170px;
+            div{
+                h3{
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .logosMain--Custom{
+            width: 100px;
+        }
+
+
+        /*-------REMERAS----------*/
+        .padre__Grids{
+            padding-top: 0px;
+            grid-row-gap: 380px;
+        }
+
+        .grid--Hijos{
+            h3{
+                font-size: 29px;
+            }
+            p{
+                font-size: 27px;
+            }
+            button{
+                font-size: 24px;
+            }
+        }
+
+        .option__Shirts{
+            padding-left: 16vw;
+        }
+
+        /*----------Sublimados-----------*/
+        .backgroundImage{
+            height: 60vh;
+            margin-top: 170px;
+            .stampTitle{
+                h2{
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        .creation--Parragraph{
+            font-size: 42px;
+        }
+        .functionFlex{
+            .creation--Steps{
+                font-size: 30px;
+                font-weight: 900;
+            }
+        }
+
+        .form--Stamp{
+            width: 350px;
+            height: 450px;
+            font-size: 30px;
+            select{
+                font-size: 30px;
+            }
+            .button--CreationShirt{
+                width: 100%;
+                height: auto;
+                font-size: 30px;
+            }
+        }
+
+        /*------------COMO COMPRAR-------------*/
+
+        .container__HowToBuy{
+            padding: 40px;
+            div{
+                .howToBuy--Title{
+                    font-size: 50px;
+                }
+            }
+            .howToBuy--Instruction{
+                font-size: 40px;
+            }
+        }
+        /*--------FOOTER---------*/
+
+        footer{
+            font-size: 30px;
+        }  
+        
+        .containerFooter--Ul{
+            ul{
+                li{
+                    padding: 0 10px 0 40px;
+                    a{
+                        img{
+                            width: 4rem;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .paymentMethods--Image{
+            width: 350px;
+            height: 150px;
+        }
+
+        .containerFooter--ContactProgrammer{
+            font-size: 32px;
         }
     }
