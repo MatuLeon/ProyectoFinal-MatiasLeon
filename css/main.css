@@ -544,6 +544,7 @@ textarea {
   footer {
     margin-top: 144px; } }
 
+/*MEDIAS QUERIES DESKTOP 2560PX*/
 @media (min-width: 1800px) {
   /*------NAV----BAR--------*/
   .navbar-collapse {
@@ -604,6 +605,24 @@ textarea {
       font-size: 50px; }
     .container__HowToBuy .howToBuy--Instruction {
       font-size: 40px; }
+  /*----------CONTACTO--------------*/
+  .container__Contacts {
+    margin-top: 190px; }
+    .container__Contacts div {
+      font-size: 45px; }
+  .form--SeparatorInput input {
+    height: auto;
+    font-size: 45px; }
+  .exclusive--FormButton input {
+    width: 300px;
+    height: auto;
+    font-size: 50px; }
+  .iframe {
+    border: 0;
+    margin-top: 160px; }
+    .iframe iframe {
+      width: 1000px;
+      height: 500px; }
   /*--------FOOTER---------*/
   footer {
     font-size: 30px; }
